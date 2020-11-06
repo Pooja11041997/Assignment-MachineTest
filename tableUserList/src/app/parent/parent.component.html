@@ -1,0 +1,18 @@
+<h2><u>User List</u></h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Sl.No</th>
+            <th>User List</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor= "let user of userList; let i = index">
+            <td>{{i+1}}</td>
+            <td (click) = "getDetails(user)">{{user}}</td>
+        </tr>
+    </tbody>
+</table>
+
+ <app-child [userData] = "details" [showUserInfo] = "showInfo"></app-child> 

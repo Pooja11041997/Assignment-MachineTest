@@ -1,0 +1,15 @@
+<h2 *ngIf = "showUserInfo"><u>User Details </u></h2>
+<table *ngIf = "showUserInfo">
+    <thead>
+        <th>Sl.No.</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>State</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td *ngFor = "let userdet of userData">{{userdet}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,17 @@
+h2{
+    text-align : center;
+}
+
+table{
+    margin : 0 auto;
+}
+table,th,td{
+    border : 2px solid black;
+}
+
+td,th{
+    padding : 10px;
+}
+td{
+    cursor : pointer;
+}

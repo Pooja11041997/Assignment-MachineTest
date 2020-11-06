@@ -1,0 +1,14 @@
+table,th,td{
+    border : 2px solid black;
+}
+
+th,th{
+    padding : 10px;
+}
+table{
+    margin : 0 auto;
+}
+
+h2{
+    text-align : center;
+}
